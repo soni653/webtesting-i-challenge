@@ -1,10 +1,3 @@
-module.exports = {
-  succeed,
-  fail,
-  repair,
-  get,
-};
-
 function succeed(item) {
   return { ...item };
 }
@@ -20,3 +13,10 @@ function repair(item) {
 function get(item) {
   return { ...item };
 }
+
+module.exports = {
+  succeed,
+  fail,
+  repair,
+  get,
+};
