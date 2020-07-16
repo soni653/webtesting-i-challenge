@@ -1,17 +1,17 @@
 const enhancer = require("./enhancer.js");
 // test away!
 const item1 = {
-  name: "diamond ring of testing",
+  name: "iron sword of testing",
   durability: 75,
   enhancement: 3,
 };
 const item2 = {
-  name: "gold ring of testing",
+  name: "steel sword of testing",
   durability: 50,
   enhancement: 15,
 };
 const item3 = {
-  name: "silver ring  of testing",
+  name: "diamond sword of testing",
   durability: 60,
   enhancement: 18,
 };
